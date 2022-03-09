@@ -6,7 +6,9 @@ Este repositório visa organizar os conteúdos da disciplina de Organização de
 
 O sumário está organizado de acordo com os conteúdos que serão abordados na disciplina. Em parênteses, está a página em que o conteúdo pode ser encontrado no livro-base, _Organização estruturada de computadores_ (veja a seção [Bibliografia](#Bibliografia)).
 
-[Livro](/organizacao.pdf)
+[Livro página 534](/organizacao.pdf#page=534)
+
+<!--<a href="file:///organizacao.pdf#page=534">livro página 534</a>-->
 
 1. **Introdução**
     1. Organização geral
@@ -17,7 +19,7 @@ O sumário está organizado de acordo com os conteúdos que serão abordados na 
     1. Números binários, octais, hexadecimais
     2. Aritmética binária
     3. Representação de valores negativos
-    4. Ponto flutuante (p 534)
+    4. Ponto flutuante (<a href="organizacao.pdf#page=553">p 534</a>)
     5. Códigos padronizados: EBCDIC, ASCII e Unicode
 
 3. **Sistema de memória**
@@ -53,4 +55,4 @@ Em breve.
 
 > Tanenbaum, Andrew S., and Wagner Luiz Zucchi. Organização estruturada de computadores. Pearson Prentice Hall, 2009.
 
-Livro disponível no seguinte [link](https://estudocerteiro.com.br/download-organizacao-estruturada/)
+O [livro](/organizacao.pdf) está incluso neste repositório.
