@@ -19,13 +19,12 @@ O sumário está organizado de acordo com os conteúdos que serão abordados na 
     5. Códigos de caracteres: ASCII Unicode (<a href="livro.pdf#page=127">pp. 108-110</a>)
 
 3. **Sistema de memória**
-    1. Características de sistemas de memória
-    2. Hierarquia de Memória
-    3. Memória principal
-    4. Memória cache
-    5. Memória virtual
-    6. Memória secundária
-    7. Organização de memória
+    1. Memória primária (<a href="livro.pdf#page=76">pp. 57-63</a>)
+        1. Memória cache (<a href="livro.pdf#page=82">pp. 63-66</a>)
+    2. Memória secundária (<a href="livro.pdf#page=86">pp. 67-85</a>)
+        1. Hierarquias de Memória (<a href="livro.pdf#page=86">pp. 67-68</a>)
+    3. Organização de memória (<a href="livro.pdf#page=157">pp. 138-140</a>) 
+    4. Memória virtual (<a href="livro.pdf#page=364">pp. 345-365</a>)
 
 4. **Sistemas de interconexão**
     1. Estruturas de interconexão
