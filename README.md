@@ -4,16 +4,17 @@ Este repositório visa organizar os conteúdos da disciplina de Organização de
 
 ## Instruções
 
-Instale uma extensão no seu navegador que permita que você consiga abrir documentos .md (markdown). Isso permitirá que você consiga clicar nos links que levam paras as páginas do livro.
+Instale uma extensão no seu navegador que permita que você consiga renderizar documentos .md (markdown). Isso permitirá que você consiga clicar nos links que levam paras as páginas do livro.
 
 * [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/)
 * [Chrome](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
 
-Depois de baixar este repositório, abra o documento README.md com o seu navegador (clicar em cima > Abrir com...).
+Depois de baixar este repositório, abra o documento README.md com o seu navegador (Clique com o botão direito em cima do documento, selecione a opção "Abrir com...", e então selecione seu navegador de preferência).
 
 ## Sumário
 
-O sumário está organizado de acordo com os conteúdos que serão abordados na disciplina. Em parênteses, está a página em que o conteúdo pode ser encontrado no livro-base, _Organização estruturada de computadores_ (veja a seção [Bibliografia](#Bibliografia)).
+O sumário está organizado de acordo com os conteúdos que serão abordados na disciplina. Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base (veja a seção [Bibliografia](#Bibliografia)).
+
 
 1. **Introdução**
     1. Organização geral (<a href="tanenbaum.pdf#page=20">pp. 1-6</a>)(<a href="stallings.pdf#page=22">Stallings pp. 1-6</a>)
@@ -72,4 +73,6 @@ Em breve.
 
 > Tanenbaum, Andrew S., and Wagner Luiz Zucchi. Organização estruturada de computadores. Pearson Prentice Hall, 2009.
 
-O <a href="tanenbaum.pdf">livro</a> está incluso neste repositório.
+> Stallings, William. "Arquitetura e Organização de Computadores 8a Edição." (2010).
+
+Os livros estão inclusos neste repositório.
