@@ -69,6 +69,11 @@ O sumário está organizado de acordo com os conteúdos que serão abordados na 
 
 Em breve.
 
+## Recursos adicionais
+
+* [Neander](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander)
+* [Neander X](https://dcc.ufrj.br/~gabriel/neander.php)
+
 ## Bibliografia
 
 > Tanenbaum, Andrew S., and Wagner Luiz Zucchi. Organização estruturada de computadores. Pearson Prentice Hall, 2009.
