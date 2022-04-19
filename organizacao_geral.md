@@ -32,7 +32,10 @@ linguagens inferiores.
   dados consiste em selecionar um ou mais registradores, e realizar alguma operação sobre
   os dados armazenados por estes registradores. 
 * **Nível de arquitetura do conjunto de instrução:** também conhecida como ISA (Instruction
-  Set Architecture). 
+  Set Architecture). UM exemplo de ISA é a x86 (CISC), usada tanto por Intel quanto AMD. 
+  Permite que processadores com organizações diferentes utilizem ainda o mesmo conjunto de 
+  instruções. Outro ISA é o ARM (RISC), usado pela empresa homônima. Mais sobre CISC e RISC
+  no decorrer do curso.
 * **Nível de máquina do sistema operacional:** Nível híbrido que possui instruções do nível
   anterior, assim como novas instruções, uma organização de memória diferente, a capacidade
   de rodar um ou mais programas simultaneamente, assim como outros recursos. Em outras palavras,
