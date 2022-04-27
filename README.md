@@ -4,16 +4,23 @@ Este repositório visa organizar os conteúdos da disciplina de Organização de
 
 ## Instruções
 
-Instale uma extensão no seu navegador que permita que você consiga renderizar documentos .md (markdown). Isso permitirá que você consiga clicar nos links que levam paras as páginas do livro.
+Para permitir que você clique no link dos conteúdos e o link o leve diretamente para a página do livro, você precisa seguir o seguinte passo-a-passo:
 
-* [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/)
-* [Chrome](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
+1. Baixar uma extensão que leia arquivos Markdown (.md) e instalar no seu navegador:
+   * [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/)
+   * [Chrome](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
+2. Baixar este repositório. Se você está vendo-o pelo link no Github [https://github.com/CTISM-Prof-Henry/computerOrganization](), você precisa clicar no botão verde `code`
+e depois em `download zip` para baixar o repositório na sua máquina.
+3. Descompacte o arquivo .zip em algum lugar
+4. Abra a pasta do repositório no seu computador, clique com o botão direito em cima do arquivo `README.md`, e então em `Abrir com`, e finalmente selecione o navegador no 
+   qual você instalou a extensão no passo 1. 
+5. Ao clicar nos links na seção [Sumário](#sumário), estes o levarão agora diretamente à página do livro com os conteúdos.
 
-Depois de baixar este repositório, abra o documento README.md com o seu navegador (Clique com o botão direito em cima do documento, selecione a opção "Abrir com...", e então selecione seu navegador de preferência).
+**Nota: esse passo-a-passo é opcional; a página do livro que tem o conteúdo é dada no próprio texto do link**.
 
 ## Sumário
 
-O sumário está organizado de acordo com os conteúdos que serão abordados na disciplina. Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base (veja a seção [Bibliografia](#Bibliografia)).
+O sumário está organizado de acordo com os conteúdos **do programa da disciplina** (não necessariamente do plano de estudos). Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base (veja a seção [Bibliografia](#Bibliografia)).
 
 
 1. **Introdução**
@@ -67,7 +74,7 @@ O sumário está organizado de acordo com os conteúdos que serão abordados na 
 
 ## Avaliações
 
-Em breve.
+No Moodle da disciplina.
 
 ## Recursos adicionais
 
