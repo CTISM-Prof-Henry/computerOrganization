@@ -72,6 +72,22 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
     * Registradores (<a href="tanenbaum.pdf#page=152">pp. 133-137</a>)
 -->
 
+## Cronograma 
+
+| Aula | Conteúdo |
+|-----:|:---------|
+| 1 | Introdução à disciplina. Placa-mãe e seus componentes. |
+| 2 | Modelo de Von Neumann. Organização geral. |
+| 3 | Números binários, octais, e hexadecimais. |
+| 4 | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
+| 5 | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
+| 6 | Feriado. |
+
+## Resumos
+
+* [Organização geral](organização_geral.md)
+* [Execução Instruções](execução_instruções.md)
+
 ## Avaliações
 
 No Moodle da disciplina.
