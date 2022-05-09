@@ -2,6 +2,16 @@
 
 Este repositório visa organizar os conteúdos da disciplina de Organização de Computadores.
 
+## Sumário
+
+* [Instruções](#instruções)
+* [Conteúdos](#conteúdos)
+* [Cronograma](#cronograma)
+* [Resumos](#resumos)
+* [Avaliações](#avaliações)
+* [Recursos adicionais](#recursos-adicionais)
+* [Bibliografia](#bibliografia)
+
 ## Instruções
 
 Para permitir que você clique no link dos conteúdos e o link o leve diretamente para a página do livro, você precisa seguir o seguinte passo-a-passo:
@@ -18,7 +28,7 @@ e depois em `download zip` para baixar o repositório na sua máquina.
 
 **Nota: esse passo-a-passo é opcional; a página do livro que tem o conteúdo é dada no próprio texto do link**.
 
-## Sumário
+## Conteúdos
 
 O sumário está organizado de acordo com os conteúdos **do programa da disciplina** (não necessariamente do plano de estudos). Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base (veja a seção [Bibliografia](#Bibliografia)).
 
