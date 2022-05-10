@@ -14,6 +14,8 @@ Este repositório visa organizar os conteúdos da disciplina de Organização de
 
 ## Instruções
 
+**Nota: esse passo-a-passo é opcional; a página do livro que tem o conteúdo é dada no próprio texto do link**.
+
 Para permitir que você clique no link dos conteúdos e o link o leve diretamente para a página do livro, você precisa seguir o seguinte passo-a-passo:
 
 1. Baixar uma extensão que leia arquivos Markdown (.md) e instalar no seu navegador:
@@ -24,9 +26,7 @@ e depois em `download zip` para baixar o repositório na sua máquina.
 3. Descompacte o arquivo .zip em algum lugar
 4. Abra a pasta do repositório no seu computador, clique com o botão direito em cima do arquivo `README.md`, e então em `Abrir com`, e finalmente selecione o navegador no 
    qual você instalou a extensão no passo 1. 
-5. Ao clicar nos links na seção [Sumário](#sumário), estes o levarão agora diretamente à página do livro com os conteúdos.
-
-**Nota: esse passo-a-passo é opcional; a página do livro que tem o conteúdo é dada no próprio texto do link**.
+5. Ao clicar nos links na seção [Conteúdos](#conteúdos), estes o levarão agora diretamente à página do livro com os conteúdos.
 
 ## Conteúdos
 
