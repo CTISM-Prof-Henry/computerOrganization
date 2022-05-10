@@ -62,23 +62,30 @@ acarretava em programas mais rápidos, mesmo que as instruções em si fossem
  demoradas de serem executadas. Um exemplo são instruções de ponto flutuante;
 outro são instruções de manipulação matricial. Percebeu-se com o tempo que, por estas 
 operações serem executadas geralmente em sequência, simplesmente criar uma instrução 
-mais complexas que executasse as duas em sequência acarretava num aumento de desempenho. 
+mais complexa que executasse as duas em sequência resultaria em aumento de desempenho. 
 
 A **arquitetura** de um processador denomina o conjunto de instruções que este processador está executando. As arquiteturas mais populares atualmente são **x86**,
-**x64**, **x86-64**, **ARM**, etc.
+**x64**, **x86-64**, **ARM**, etc. O conjunto de instruções da arquitetura x86 está disponível
+na [Wikipédia](https://en.wikipedia.org/wiki/X86_instruction_listings).
 
 
-## RISC vs SISC
+## RISC vs CISC
 
-CISC era o padrão da indústria, até surgirem as máquinas RISC. As máquinas RISC
-beneficiarem-se de questões de desempenho (quanto tempo demora para executar cada
-instrução, a velocidade de acesso a memória, etc). As máquinas RISC não faziam 
-uso de interpretadores, executando as instruções diretamente por hardware.
+A forma como as instruções são executadas (com ou sem interpretador), e o 
+número de instruções do processador (muitas ou poucas) impactam na 
+denominação do processador. Existem dois padrões na indústria atualmente, 
+**RISC** e **CISC**: 
 
 * **RISC**: Reduced Instruction Set Computer. Giram em torno de 50 instruções.
   Exemplo de arquitetura: ARM 
 * **CISC**: Complex Instruction Set Computer. Giram em torno de 200, 300 instruções.
   Exemplo de arquitetura: x86
+
+CISC era o padrão dominante, até surgirem as 
+máquinas RISC. As máquinas RISC beneficiarem-se de questões de desempenho 
+(quanto tempo demora para executar cada instrução, a velocidade de acesso 
+a memória, etc). As máquinas RISC não fazem uso de interpretadores, 
+executando as instruções diretamente por hardware.
 
 As máquinas RISC não substituíram totalmente as CISC no mercado pois projetistas de
 processadores da Intel incorporaram conceitos RISC em processadores CISC. Instruções
@@ -97,13 +104,12 @@ geral competitivo e retrocompatível.
   são executadas de maneira que maximizem o desempenho do programa. Obviamente,
   se existe uma ordem de execução (e.g. a instrução 2 utiliza o resultado de uma
   operação realizada pela instrução 1), esta ordem deve ser mantida.
-* Se for necessário buscar dados na memória, busque-os antes das instruções 
-  precisarem destes dados (busca antecipada). Uma vez recuperados, armazene estes dados
+* **Se for necessário buscar dados na memória, busque-os antes das instruções 
+  precisarem destes dados (busca antecipada).** Uma vez recuperados, armazene estes dados
   nos registradores do processador para rápido acesso.
-* O pipelining permite a execução de uma instrução por ciclo de CPU, pelo paralelismo
-  a nível de instrução. Cada etapa da execução de uma instrução (decodificação, busca, 
-  execução) é executada por uma parte especializada do hardware, efetivamente dividindo
-  a carga de trabalho. A figura 2.4, extraída do livro do Tanenbaum, exemplifica este 
-  conceito.
+* **Use pipelining.** O pipelining permite a execução de uma instrução por ciclo de CPU, 
+  pelo paralelismo a nível de instrução. Cada etapa da execução de uma instrução 
+  (decodificação, busca, execução) é executada por uma parte especializada do hardware, 
+  efetivamente dividindo a carga de trabalho. A figura 2.4, extraída do livro do Tanenbaum, exemplifica este conceito.
 
   ![pipelining](imagens/pipelining.png)
