@@ -92,6 +92,7 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 | 4 | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
 | 5 | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
 | 6 | Feriado. |
+| 7 | Prova. |
 
 ## Resumos
 
