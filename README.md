@@ -55,11 +55,10 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 
 4. **Sistemas de interconexão**
     1. Estruturas de interconexão <!--(<a href="tanenbaum.pdf#page=506">pp. 487-489</a>)-->(<a href="stallings.pdf#page=83">Stallings pp. 62-63</a>)
-    2. Interconexão de barramento <!--(<a href="tanenbaum.pdf#page=166">pp. 147-158</a>)-->(<a href="stallings.pdf#page=84">Stallings pp. 63-71</a>)
+    2. Barramentos (<a href="tanenbaum.pdf#page=104">pp. 85-88</a>) 
 
 5. **Sistema de entrada e saída**
-    1. Barramentos (<a href="tanenbaum.pdf#page=104">pp. 85-88</a>) 
-    2. Dispositivos externos (periféricos) (<a href="tanenbaum.pdf#page=107">pp. 88-99</a>) 
+    1. Dispositivos externos (periféricos) (<a href="tanenbaum.pdf#page=107">pp. 88-99</a>) 
 
 6. **Unidade central de processamento**
     1. Interrupção, suspensão, parada e partida (<a href="stallings.pdf#page=477">Stallings pp. 456-461</a>)
@@ -86,20 +85,22 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 
 | Aula | Conteúdo |
 |-----:|:---------|
-| 1 | Introdução à disciplina. Placa-mãe e seus componentes. |
-| 2 | Modelo de Von Neumann. Organização geral. |
-| 3 | Números binários, octais, e hexadecimais. |
-| 4 | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
-| 5 | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
-| 6 | Feriado. |
-| 7 | Prova. |
-| 8 | Correção da prova. Apresentação seminários. |
-| 9 | Apresentação seminários (continuação) |
+|  1 | Introdução à disciplina. Placa-mãe e seus componentes. |
+|  2 | Modelo de Von Neumann. Organização geral. |
+|  3 | Números binários, octais, e hexadecimais. |
+|  4 | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
+|  5 | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
+|  6 | Feriado. |
+|  7 | Prova. |
+|  8 | Correção da prova. Apresentação seminários. |
+|  9 | Apresentação seminários (continuação) |
+| 10 | Estruturas de interconexão. Barramentos. |
 
 ## Resumos
 
 * [Organização geral](organização_geral.md)
 * [Execução Instruções](execução_instruções.md)
+* [Barramentos](barramentos.md)
 
 ## Avaliações
 
