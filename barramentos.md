@@ -65,8 +65,6 @@ Os caminhos de dados presentes em um barramento são divididos tipicamente em tr
 
 Mais exemplos na [Wikipedia](https://en.wikipedia.org/wiki/Bus_(computing)) (página em inglês).
 
-# Estruturas de Interconexão
-
 <!-- Nos primórdios da computação, existia apenas um tipo de barramento, o ISA -- Industry
 Standard Architecture (**nota:** não confundir com o ISA de Instruction Set 
 Architecture). Este barramento era utilizado por diversos dispositivos, -->
