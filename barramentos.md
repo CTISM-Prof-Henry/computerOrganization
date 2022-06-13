@@ -26,13 +26,16 @@ interrupção na execução do programa atual, e execução de uma rotina chamad
 de interrupção**. Esta rotina é responsável por verificar se os dados foram 
 corretamente escritos na memória, executar tarefas em caso negativo, dentre outras 
 atribuições. Finda a execução da rotina de interrupção, a CPU pode terminar de 
-executar o programa que foi anteriormente suspenso. da memória.
+executar o programa que foi anteriormente suspenso da memória.
 
 Quem controla quais dispositivos usarão o barramento em qual momento é um chip 
 denominado **árbitro de barramento**. Geralmente este árbitro dá preferência a 
 dispositivos de E/S, pois geralmente estes não podem ser parados no meio de uma 
 execução (por exemplo, o leitor de um disco óptico). Quando nenhum dispositivo de E/S
-está executando, então a CPU tem a preferência total, para referenciar a memória.
+está executando, então a CPU tem a preferência total, para referenciar a memória. 
+Todavia, se um dispositivo de E/S precisar executar enquanto a CPU tem a preferência, 
+então uma rotina de **roubo de ciclo** (_round robin_ em inglês) ocorre, onde o 
+dispositivo de E/S tem a preferência.
 
 Hoje em dia, o projeto de placas-mãe é feito de maneira que a CPU e dispositivos de 
 entrada e saída compartilhem o menor número possível de barramentos, de forma que 
