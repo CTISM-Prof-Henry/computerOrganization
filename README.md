@@ -83,18 +83,19 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 
 ## Cronograma 
 
-| Aula | Conteúdo |
-|-----:|:---------|
-|  1 | Introdução à disciplina. Placa-mãe e seus componentes. |
-|  2 | Modelo de Von Neumann. Organização geral. |
-|  3 | Números binários, octais, e hexadecimais. |
-|  4 | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
-|  5 | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
-|  6 | Feriado. |
-|  7 | Prova. |
-|  8 | Correção da prova. Apresentação seminários. |
-|  9 | Apresentação seminários (continuação) |
-| 10 | Estruturas de interconexão. Barramentos. |
+| Aula |               Sala | Conteúdo |
+|-----:|-------------------:|:---------|
+|    1 |       Sala de Aula | Introdução à disciplina. Placa-mãe e seus componentes. |
+|    2 |       Sala de Aula | Modelo de Von Neumann. Organização geral. |
+|    3 |       Sala de Aula | Números binários, octais, e hexadecimais. |
+|    4 |       Sala de Aula | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
+|    5 |       Sala de Aula | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
+|    6 |       Sala de Aula | Feriado. |
+|    7 |       Sala de Aula | Prova. |
+|    8 |       Sala de Aula | Correção da prova. Apresentação seminários. |
+|    9 |       Sala de Aula | Apresentação seminários (continuação) |
+|   10 |       Sala de Aula | Estruturas de interconexão. Barramentos. |
+|   11 | Lab 207 - Prédio 5 | Neander: introdução. Características de arquitetura. Conjunto de instruções. |
 
 ## Resumos
 
