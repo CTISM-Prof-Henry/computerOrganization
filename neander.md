@@ -1,39 +1,82 @@
 # Neander
 
-* largura de dados e endereços: 8 bits
-* dados podem ter 8 bits 
-* endereços vão até 2^8 (256 endereços)
+## Arquitetura
+
+### Largura de dados e endereços: 8 bits
+
+Ou seja, possui 256 endereços de memória, cada um armazenando 8 bits (1 byte) de 
+informação
+
+Instruções e dados são armazenados na mesma memória. As primeiras posições de
+memória são utilizadas pelas instruções, quando o programa é compilado.
+
+### Registradores
 
 * 1 acumulador de 8 bits (ACC)
 * 1 program counter de 8 bits (PC)
-* 1 registrador de estado com 2 códigos de condição
-* N (negativo) e Z (zero)
+* 1 registrador de estado com 2 códigos de condição: N (negativo) e Z (zero)
+    * Valores mudam após operações da ULA (e.g. ADD)
 
 ## Representação de valores negativos
 
-* dados representados em complemento de 2
-* tenta evitar o negativo zero (ver Representação de valores negativos no material)
+* Dados representados em complemento de 2
+* Vide <a href="tanenbaum.pdf#page=550">Representação de valores negativos</a> 
+  no material
 
 # Endereçamento
 
-* Neander possui apenas endereçamento DIRETO
-* logo após o código das instruções, é seguido o endereço do operando
+* Neander possui apenas endereçamento **DIRETO**. Logo após o código das 
+  instruções, é seguido o endereço do operando
 
-* neander x foi estendido para ter mais modos de endereçamento: imediato e indireto
+* Neander-X foi estendido para ter mais modos de endereçamento: imediato e 
+indireto
 
 ## Modos de Endereçamento
 
-### imediato
+### Direto
 
-O segundo byte da instrução é o operando.
+O segundo byte da instrução é o endereço de memória do operando. Modo de 
+endereçamento original do Neander.
 
-A única instrução que usa este modo de endereçamento é a LDI.
+### Imediato
 
-### direto
+O segundo byte da instrução é o operando. A única instrução que usa este modo de 
+endereçamento é a LDI, do Neander-X.
 
-O segundo byte da instrução é o endereço de memória do operando.
+### Indireto
 
-### indireto
+O segundo byte da instrução contém o endereço de memória onde está o endereço do
+operando (ou seja, o segundo byte da instrução é o endereço do ponteiro para o 
+operando). Para indicar que um operando é indireto, deve-se precedê-lo pela letra 
+`@` (arroba).
 
-O segundo byte da instrução contém o endereço de memória onde está o endereço do operando (ou seja, o segundo byte da instrução é o endereço do ponteiro para o operando). Para indicar que um operando é indireto, deve-se precedê-lo pela letra "@" (arrôba)
+## Instruções
 
+| Código binário |     Instrução |                                           Descrição |
+|---------------:|:--------------|:----------------------------------------------------|
+|      0000 0000 | NOP           | nenhuma operação                                    |
+|      0001 0000 | STA `ender`   | armazena acumulador (store)                         |
+|      0010 0000 | LDA `ender`   | carrega acumulador (load)                           |
+|      0011 0000 | ADD `ender`   | Soma ao acumulador o valor armazenado em `ender`    |
+|      0100 0000 | OR `ender`    | operação lógica **OU**                              |
+|      0101 0000 | AND `ender`   | operação lógica **E**                               |
+|      0110 0000 | NOT           | inverte (complementa) acumulador                    |
+|      0111 0000 | SUB `ender`   | subtrai do acumulador o valor armazenado em `ender` |
+|      1000 0000 | JMP `ender`   | desvio incondicional (jump)                         |
+|      1001 0000 | JN `ender`    | desvio condicional (jump on negative)               |
+|      1010 0000 | JZ `ender`    | desvio condicional (jump on zero)                   |
+|      1011 0000 | JNZ `ender`   | desvio condicional (jump on not zero)               |
+|      1100 0000 | IN `ender`    | operação  de entrada no dispositivo `ender`         |
+|      1101 0000 | OUT `ender`   | operação de saída no dispositivo `ender`            |
+|      1110 0000 | LDI `imed`    | carrega o valor imediato `imed` no acumulador       |
+|      1111 0000 | HLT           | término da execução (halt)                          |
+
+### Pseudo-instruções
+
+|      Instrução |                                                     Descrição |
+|:---------------|:--------------------------------------------------------------|
+| ORG `ender`    | coloca a próxima instrução  na posição ender de memória       |
+| var EQU `imed` | atribui um nome (rótulo) à uma posição na memória.            |
+| END `ender`    | usado para pré-carregar o PC com o endereço inicial de execução do programa. |
+| DS `imed`      | (define storage) reserva um número de palavras na memória definido pelo valor `imed`. |
+| DB `imed`      | (define bytes) carrega esta palavra com o valor dado pelo operando `imed`. |                

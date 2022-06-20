@@ -102,6 +102,7 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 * [Organização geral](organização_geral.md)
 * [Execução Instruções](execução_instruções.md)
 * [Barramentos](barramentos.md)
+* [Neander](neander.md)
 
 ## Avaliações
 
