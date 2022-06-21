@@ -50,6 +50,12 @@ operando (ou seja, o segundo byte da instrução é o endereço do ponteiro para
 operando). Para indicar que um operando é indireto, deve-se precedê-lo pela letra 
 `@` (arroba).
 
+## Interface gráfica
+
+Todos os valores representados são números **hexadecimais** (i.e. memória, visor, switches
+de entrada, valores dos registradores), à exceção do console de programação, onde os números
+são **decimais**.
+
 ## Instruções
 
 | Código binário |     Instrução |                                           Descrição |
@@ -71,11 +77,23 @@ operando). Para indicar que um operando é indireto, deve-se precedê-lo pela le
 |      1110 0000 | LDI `imed`    | carrega o valor imediato `imed` no acumulador       |
 |      1111 0000 | HLT           | término da execução (halt)                          |
 
+**NOTA 1:** O comando IN recebe o endereço do **dispositivo de entrada**, e não de uma 
+posição de memória. Atualmente, no Neander-X, os únicos dispositivos de entrada são 
+os switches (valor 0) e o sinal de dados disponíveis (valor 1)
+
+**NOTA 2:** o comando OUT recebe o endereço do **dispositivo de saída**, e não de uma 
+posição de memória. Atualmente, no Neander-X, o único dispositivo de saída é o visor 
+(valor 0).
+
+**NOTA 3:** quando compilamos um programa, as instruções são colocadas nas primeiras
+posições da memória. Você deve usar essas posições da memória nas instruções de desvio
+(condicional ou incondicional).
+
 ### Pseudo-instruções
 
 |      Instrução |                                                     Descrição |
 |:---------------|:--------------------------------------------------------------|
-| ORG `ender`    | coloca a próxima instrução  na posição ender de memória       |
+| ORG `ender`    | coloca a próxima instrução  na posição `ender` de memória     |
 | var EQU `imed` | atribui um nome (rótulo) à uma posição na memória.            |
 | END `ender`    | usado para pré-carregar o PC com o endereço inicial de execução do programa. |
 | DS `imed`      | (define storage) reserva um número de palavras na memória definido pelo valor `imed`. |
