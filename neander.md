@@ -114,6 +114,8 @@ https://youtu.be/diAU-PBY1IY?list=PLWwYNisj4aJP1QgaaNv2nlhRIYCHAeaqV)
 
 ## Exercícios
 
+A resolução dos exercícios está [aqui](neander/resoluções)
+
 1. Crie um programa no Neander que leia um número pelo teclado (`IN 0`), outro 
 pela memória, some ambos e mostre na tela.
 2. Crie um programa no Neander que leia um número pelo teclado (`IN 0`), outro 
