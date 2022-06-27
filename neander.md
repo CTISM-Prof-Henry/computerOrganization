@@ -23,33 +23,32 @@ memória são utilizadas pelas instruções, quando o programa é compilado.
 * 1 registrador de estado com 2 códigos de condição: N (negativo) e Z (zero)
     * Valores mudam após operações da ULA (e.g. ADD)
 
-## Representação de valores negativos
+### Representação de valores negativos
 
 * Dados representados em complemento de 2
 * Vide <a href="tanenbaum.pdf#page=550">Representação de valores negativos</a> 
   no material
 
-# Endereçamento
+## Endereçamento
 
 * Neander possui apenas endereçamento **DIRETO**. Logo após o código das 
   instruções, é seguido o endereço do operando
-
 * Neander-X foi estendido para ter mais modos de endereçamento: imediato e 
 indireto
 
-## Modos de Endereçamento
+### Modos de Endereçamento
 
-### Direto
+#### Direto
 
 O segundo byte da instrução é o endereço de memória do operando. Modo de 
 endereçamento original do Neander.
 
-### Imediato
+#### Imediato
 
 O segundo byte da instrução é o operando. A única instrução que usa este modo de 
 endereçamento é a LDI, do Neander-X.
 
-### Indireto
+#### Indireto
 
 O segundo byte da instrução contém o endereço de memória onde está o endereço do
 operando (ou seja, o segundo byte da instrução é o endereço do ponteiro para o 
@@ -82,20 +81,20 @@ operando). Para indicar que um operando é indireto, deve-se precedê-lo pela le
 |      Instrução |                                                     Descrição |
 |:---------------|:--------------------------------------------------------------|
 | ORG `ender`    | coloca a próxima instrução  na posição ender de memória       |
-| var EQU `imed` | atribui um nome (rótulo) à uma posição na memória.            |
-| END `ender`    | usado para pré-carregar o PC com o endereço inicial de execução do programa. |
-| DS `imed`      | (define storage) reserva um número de palavras na memória definido pelo valor `imed`. |
-| DB `imed`      | (define bytes) carrega esta palavra com o valor dado pelo operando `imed`. |                
+| var EQU `imed` | atribui um nome (rótulo) à uma posição na memória            |
+| END `ender`    | usado para pré-carregar o PC com o endereço inicial de execução do programa |
+| DS `imed`      | (define storage) reserva um número de palavras na memória definido pelo valor `imed` |
+| DB `imed`      | (define bytes) carrega esta palavra com o valor dado pelo operando `imed` |                
 
 
-### Vídeos no Youtube
+## Vídeos no Youtube
 
 * [Características, Especificações, Arquitetura e Conjunto de Instruções](
 https://youtu.be/lHppuOeUN3A?list=PLWwYNisj4aJP1QgaaNv2nlhRIYCHAeaqV)
 * [Organização, Circuitos e Fluxo de Dados](
 https://youtu.be/diAU-PBY1IY?list=PLWwYNisj4aJP1QgaaNv2nlhRIYCHAeaqV)
 
-### Exercícios
+## Exercícios
 
 1. Crie um programa no Neander que leia um número pelo teclado (`IN 0`), outro 
 pela memória, some ambos e mostre na tela.
