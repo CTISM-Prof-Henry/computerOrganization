@@ -1,5 +1,11 @@
 # Neander
 
+## Sumário
+
+* [Arquitetura](#arquitetura)
+* [Vídeos no Youtube](#vídeos-no-youtube)
+* [Exercícios](#exercícios)
+
 ## Arquitetura
 
 ### Largura de dados e endereços: 8 bits
@@ -80,3 +86,27 @@ operando). Para indicar que um operando é indireto, deve-se precedê-lo pela le
 | END `ender`    | usado para pré-carregar o PC com o endereço inicial de execução do programa. |
 | DS `imed`      | (define storage) reserva um número de palavras na memória definido pelo valor `imed`. |
 | DB `imed`      | (define bytes) carrega esta palavra com o valor dado pelo operando `imed`. |                
+
+
+### Vídeos no Youtube
+
+* [Características, Especificações, Arquitetura e Conjunto de Instruções](
+https://youtu.be/lHppuOeUN3A?list=PLWwYNisj4aJP1QgaaNv2nlhRIYCHAeaqV)
+* [Organização, Circuitos e Fluxo de Dados](
+https://youtu.be/diAU-PBY1IY?list=PLWwYNisj4aJP1QgaaNv2nlhRIYCHAeaqV)
+
+### Exercícios
+
+1. Crie um programa no Neander que leia um número pelo teclado (`IN 0`), outro 
+pela memória, some ambos e mostre na tela.
+2. Crie um programa no Neander que leia um número pelo teclado (`IN 0`), outro 
+do código-fonte, com endereçamento imediato, some ambos e mostre na tela.
+3. Crie um programa que some dois números, ambos escritos na memória, e mostre
+   na tela o valor da flag `N`.
+4. Crie um programa que, dado um número `x`, lido da memória, mostra o seu
+   valor negativo, em complemento de 2.
+5. Crie um programa que multiple dois números.
+6. Crie um programa que eleve um número ao quadrado.
+7. Crie um programa que faça a potência `x^y`
+
+Mais exercícios na página do [neander](https://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander).

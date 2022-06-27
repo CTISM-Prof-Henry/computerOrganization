@@ -111,7 +111,8 @@ No Moodle da disciplina.
 ## Recursos adicionais
 
 * [Neander](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander)
-* [Neander X](https://dcc.ufrj.br/~gabriel/neander.php)
+* [Neander-X](https://dcc.ufrj.br/~gabriel/neander.php)
+    * [Download](https://sourceforge.net/projects/neander-x)
 
 ## Bibliografia
 
