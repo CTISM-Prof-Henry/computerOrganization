@@ -55,26 +55,44 @@ operando (ou seja, o segundo byte da instrução é o endereço do ponteiro para
 operando). Para indicar que um operando é indireto, deve-se precedê-lo pela letra 
 `@` (arroba).
 
+## Interface gráfica
+
+Todos os valores representados são números **hexadecimais** (i.e. memória, visor, switches
+de entrada, valores dos registradores), à exceção do console de programação, onde os números
+são **decimais**.
+
 ## Instruções
 
-| Código binário |     Instrução |                                           Descrição |
-|---------------:|:--------------|:----------------------------------------------------|
-|      0000 0000 | NOP           | nenhuma operação                                    |
-|      0001 0000 | STA `ender`   | armazena acumulador (store)                         |
-|      0010 0000 | LDA `ender`   | carrega acumulador (load)                           |
-|      0011 0000 | ADD `ender`   | Soma ao acumulador o valor armazenado em `ender`    |
-|      0100 0000 | OR `ender`    | operação lógica **OU**                              |
-|      0101 0000 | AND `ender`   | operação lógica **E**                               |
-|      0110 0000 | NOT           | inverte (complementa) acumulador                    |
-|      0111 0000 | SUB `ender`   | subtrai do acumulador o valor armazenado em `ender` |
-|      1000 0000 | JMP `ender`   | desvio incondicional (jump)                         |
-|      1001 0000 | JN `ender`    | desvio condicional (jump on negative)               |
-|      1010 0000 | JZ `ender`    | desvio condicional (jump on zero)                   |
-|      1011 0000 | JNZ `ender`   | desvio condicional (jump on not zero)               |
-|      1100 0000 | IN `ender`    | operação  de entrada no dispositivo `ender`         |
-|      1101 0000 | OUT `ender`   | operação de saída no dispositivo `ender`            |
-|      1110 0000 | LDI `imed`    | carrega o valor imediato `imed` no acumulador       |
-|      1111 0000 | HLT           | término da execução (halt)                          |
+| Código binário | Código hexadecimal |     Instrução |                                           Descrição |
+|---------------:|-------------------:|:--------------|:----------------------------------------------------|
+|      0000 0000 |                 00 | NOP           | nenhuma operação                                    |
+|      0001 0000 |                 10 | STA `ender`   | armazena acumulador (store)                         |
+|      0010 0000 |                 20 | LDA `ender`   | carrega acumulador (load)                           |
+|      0011 0000 |                 30 | ADD `ender`   | Soma ao acumulador o valor armazenado em `ender`    |
+|      0100 0000 |                 40 | OR `ender`    | operação lógica **OU**                              |
+|      0101 0000 |                 50 | AND `ender`   | operação lógica **E**                               |
+|      0110 0000 |                 60 | NOT           | inverte (complementa) acumulador                    |
+|      0111 0000 |                 70 | SUB `ender`   | subtrai do acumulador o valor armazenado em `ender` |
+|      1000 0000 |                 80 | JMP `ender`   | desvio incondicional (jump)                         |
+|      1001 0000 |                 90 | JN `ender`    | desvio condicional (jump on negative)               |
+|      1010 0000 |                 A0 | JZ `ender`    | desvio condicional (jump on zero)                   |
+|      1011 0000 |                 B0 | JNZ `ender`   | desvio condicional (jump on not zero)               |
+|      1100 0000 |                 C0 | IN `ender`    | operação  de entrada no dispositivo `ender`         |
+|      1101 0000 |                 D0 | OUT `ender`   | operação de saída no dispositivo `ender`            |
+|      1110 0000 |                 E0 | LDI `imed`    | carrega o valor imediato `imed` no acumulador       |
+|      1111 0000 |                 F0 | HLT           | término da execução (halt)                          |
+
+**NOTA 1:** O comando IN recebe o endereço do **dispositivo de entrada**, e não de uma 
+posição de memória. Atualmente, no Neander-X, os únicos dispositivos de entrada são 
+os switches (valor 0) e o sinal de dados disponíveis (valor 1)
+
+**NOTA 2:** o comando OUT recebe o endereço do **dispositivo de saída**, e não de uma 
+posição de memória. Atualmente, no Neander-X, o único dispositivo de saída é o visor 
+(valor 0).
+
+**NOTA 3:** quando compilamos um programa, as instruções são colocadas nas primeiras
+posições da memória. Você deve usar essas posições da memória nas instruções de desvio
+(condicional ou incondicional).
 
 ### Pseudo-instruções
 
