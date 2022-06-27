@@ -96,7 +96,15 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 |    9 |       Sala de Aula | Apresentação seminários (continuação) |
 |   10 |       Sala de Aula | Estruturas de interconexão. Barramentos. |
 |   11 | Lab 207 - Prédio 5 | Neander: introdução. Características de arquitetura. Conjunto de instruções. |
-|   11 | Lab 207 - Prédio 5 | Neander: programação em Assembly. Resolução de exercícios. |
+|   12 | Lab 207 - Prédio 5 | Neander: programação em Assembly. Resolução de exercícios. |
+|   13 | Lab 207 - Prédio 5 | Neander: exemplo de execução de um pograma na organização do Neander. Resolução de exercícios. |
+|   14 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina. |
+|   15 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina (continuação). |
+|   16 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander. |
+|   17 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander (continuação) |
+|   18 |       Sala de Aula | Prova. |
+|   19 |       Sala de Aula | Exame. |
+
 
 ## Resumos
 
