@@ -65,20 +65,20 @@ são **decimais**.
 
 | Código binário | Código hexadecimal |     Instrução |                                           Descrição |
 |---------------:|-------------------:|:--------------|:----------------------------------------------------|
-|      0000 0000 |                 00 | NOP           | nenhuma operação                                    |
-|      0001 0000 |                 10 | STA `ender`   | armazena acumulador (store)                         |
-|      0010 0000 |                 20 | LDA `ender`   | carrega acumulador (load)                           |
+|      0000 0000 |                 00 | NOP           | não faz nada                                        |
+|      0001 0000 |                 10 | STA `ender`   | armazena valor ACC na posição `ender` de memória    |
+|      0010 0000 |                 20 | LDA `ender`   | carrega no ACC o valor na posição `ender` de memória |
 |      0011 0000 |                 30 | ADD `ender`   | Soma ao acumulador o valor armazenado em `ender`    |
-|      0100 0000 |                 40 | OR `ender`    | operação lógica **OU**                              |
-|      0101 0000 |                 50 | AND `ender`   | operação lógica **E**                               |
+|      0100 0000 |                 40 | OR `ender`    | realiza um **OU** lógico entre ACC e valor em `ender` |
+|      0101 0000 |                 50 | AND `ender`   | realiza um **E** lógico entre ACC e valor em `ender`  |
 |      0110 0000 |                 60 | NOT           | inverte (complementa) acumulador                    |
 |      0111 0000 |                 70 | SUB `ender`   | subtrai do acumulador o valor armazenado em `ender` |
-|      1000 0000 |                 80 | JMP `ender`   | desvio incondicional (jump)                         |
-|      1001 0000 |                 90 | JN `ender`    | desvio condicional (jump on negative)               |
-|      1010 0000 |                 A0 | JZ `ender`    | desvio condicional (jump on zero)                   |
-|      1011 0000 |                 B0 | JNZ `ender`   | desvio condicional (jump on not zero)               |
-|      1100 0000 |                 C0 | IN `ender`    | operação  de entrada no dispositivo `ender`         |
-|      1101 0000 |                 D0 | OUT `ender`   | operação de saída no dispositivo `ender`            |
+|      1000 0000 |                 80 | JMP `ender`   | pula para a instrução na posição `ender` de memória |
+|      1001 0000 |                 90 | JN `ender`    | pula para a instrução na posição `ender` de memória **APENAS SE** N = 1 |
+|      1010 0000 |                 A0 | JZ `ender`    | pula para a instrução na posição `ender` de memória **APENAS SE** Z = 1 |
+|      1011 0000 |                 B0 | JNZ `ender`   | pula para a instrução na posição `ender` de memória **APENAS SE** N = 0 |
+|      1100 0000 |                 C0 | IN 0    | carrega valor da entrada (teclado) no ACC |
+|      1101 0000 |                 D0 | OUT 0   | mostra no visor valor do ACC |
 |      1110 0000 |                 E0 | LDI `imed`    | carrega o valor imediato `imed` no acumulador       |
 |      1111 0000 |                 F0 | HLT           | término da execução (halt)                          |
 
