@@ -61,6 +61,33 @@ Todos os valores representados são números **hexadecimais** (i.e. memória, vi
 de entrada, valores dos registradores), à exceção do console de programação, onde os números
 são **decimais**.
 
+## Passo-a-passo de execução de programas
+
+```mermaid
+flowchart TD;
+reseta[resetar execução]
+zera[zerar memória]
+limpa_teclado[limpar teclado]
+escreve[escrever código]
+teclado[entrar valores\nno teclado]
+memória[entrar valores\nna memória]
+compila[compilar]
+executa[executar]
+
+subgraph organiza[" "]
+	reseta --> zera --> limpa_teclado
+end
+subgraph codifica[" "]
+	limpa_teclado --> escreve --> compila
+end
+subgraph entrada[" "]
+compila --> teclado --> memória
+end
+memória --> executa
+```
+
+
+
 ## Instruções
 
 | Código binário | Código hexadecimal |     Instrução |                                           Descrição |
