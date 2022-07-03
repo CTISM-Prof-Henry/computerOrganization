@@ -180,7 +180,7 @@ posições da memória. Você deve usar essas posições da memória nas instru�
 
 A organização do Neander diz respeito aos aspectos **visíveis** de sua implementação, e pode ser visualizada na figura abaixo.
 
-![](imagens/neander_organização.png)
+![](../imagens/neander_organização.png)
 
 ## Vídeos no Youtube
 
