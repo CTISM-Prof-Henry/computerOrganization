@@ -1,18 +1,24 @@
 # Organização de Computadores
 
-Este repositório visa organizar os conteúdos da disciplina de Organização de Computadores.
+Este repositório visa organizar os conteúdos da disciplina de Organização de Computadores, lecionada em 2022 e ministrada pelo professor Henry Cagnini, 
+para os cursos de Graduação em Automação Industrial, e Técnico Subsequente em Eletrônica, do Colégio Técnico Industrial de Santa Maria (CTISM).
 
 ## Sumário
 
-* [Instruções](#instruções)
 * [Conteúdos](#conteúdos)
+    * [Instruções](#instruções)
 * [Cronograma](#cronograma)
 * [Resumos](#resumos)
-* [Avaliações](#avaliações)
 * [Recursos adicionais](#recursos-adicionais)
 * [Bibliografia](#bibliografia)
 
-## Instruções
+## Conteúdos
+
+O sumário está organizado de acordo com os conteúdos **do programa da disciplina** 
+(não necessariamente do plano de ensino). Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base. Veja a seção [Bibliografia](#Bibliografia)) para consultar os livros-base desta disciplina.
+
+
+### Instruções
 
 **Nota: esse passo-a-passo é opcional; a página do livro que tem o conteúdo é dada no próprio texto do link**.
 
@@ -21,17 +27,10 @@ Para permitir que você clique no link dos conteúdos e o link o leve diretament
 1. Baixar uma extensão que leia arquivos Markdown (.md) e instalar no seu navegador:
    * [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/)
    * [Chrome](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
-2. Baixar este repositório. Se você está vendo-o pelo link no Github [https://github.com/CTISM-Prof-Henry/computerOrganization](), você precisa clicar no botão verde `code`
-e depois em `download zip` para baixar o repositório na sua máquina.
+2. Baixar este repositório. Se você está vendo-o pelo link no Github [https://github.com/CTISM-Prof-Henry/computerOrganization](), você precisa clicar no botão verde <img src="imagens/code_button.png"> e depois em _Download ZIP_ para baixar o repositório na sua máquina.
 3. Descompacte o arquivo .zip em algum lugar
-4. Abra a pasta do repositório no seu computador, clique com o botão direito em cima do arquivo `README.md`, e então em `Abrir com`, e finalmente selecione o navegador no 
-   qual você instalou a extensão no passo 1. 
-5. Ao clicar nos links na seção [Conteúdos](#conteúdos), estes o levarão agora diretamente à página do livro com os conteúdos.
-
-## Conteúdos
-
-O sumário está organizado de acordo com os conteúdos **do programa da disciplina** (não necessariamente do plano de estudos). Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base (veja a seção [Bibliografia](#Bibliografia)).
-
+4. Abra a pasta do repositório no seu computador, clique com o botão direito em cima do arquivo _README.md_, e então em _Abrir com_, e finalmente selecione o navegador no qual você instalou a extensão no passo 1. 
+5. Ao clicar nos links na seção [Conteúdos](#conteúdos), estes o levarão agora diretamente à página do livro.
 
 1. **Introdução**
     1. Organização geral (<a href="tanenbaum.pdf#page=20">pp. 1-6</a>)(<a href="stallings.pdf#page=22">Stallings pp. 1-6</a>)
@@ -70,17 +69,6 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 7. **Controle microprogramado** (<a href="stallings.pdf#page=495">Stallings pp. 474-504</a>)
 
 
-<!--
-**introdução:** (<a href="tanenbaum.pdf#page=61">pp. 42-132</a>) 
-**provavelmente é esse aqui:** (<a href="tanenbaum.pdf#page=134">pp. 155</a>) 
-
-* Circuitos lógicos básicos (<a href="tanenbaum.pdf#page=142">pp. 123</a>)
-    * Decodificadores (<a href="tanenbaum.pdf#page=145">pp. 126-127</a>)
-    * Unidade lógica e aritmética (<a href="tanenbaum.pdf#page=149">pp. 130-132</a>)
-* Memória 
-    * Registradores (<a href="tanenbaum.pdf#page=152">pp. 133-137</a>)
--->
-
 ## Cronograma 
 
 | Aula |               Sala | Conteúdo |
@@ -108,14 +96,10 @@ O sumário está organizado de acordo com os conteúdos **do programa da discipl
 
 ## Resumos
 
-* [Organização geral](organização_geral.md)
-* [Execução Instruções](execução_instruções.md)
-* [Barramentos](barramentos.md)
-* [Neander](neander.md)
-
-## Avaliações
-
-No Moodle da disciplina.
+* [Organização geral](resumos/organização_geral.md)
+* [Execução Instruções](resumos/execução_instruções.md)
+* [Barramentos](resumos/barramentos.md)
+* [Neander](neander/README.md)
 
 ## Recursos adicionais
 

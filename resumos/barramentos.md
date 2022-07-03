@@ -11,7 +11,7 @@ dispositivo deve transmitir por vez, enquanto os outros escutam.
 
 Os dispositivos de entrada e saída (E/S) são divididos ainda em duas partes: o _**drive**_ (o dispositivo de E/S em si), e o controlador. O controlador e os dispositivos podem não estar contidos no dispositivo de E/S em si (por exemplo, o controlador pode ficar na placa-mãe, enquanto o dispositivo é conectado à placa-mãe por meio de um cabo).
 
-![](imagens/barramento_1.png)
+![](../imagens/barramento_1.png)
 
 **Figura 1:** Adaptada do livro do Tanenbaum.
 
@@ -43,14 +43,14 @@ dispositivos rápidos (e.g. CPU, placas de vídeo) não sejam interrompidos por
 dispositivos lentos (e.g. discos magnéticos, leitores ópticos), como mostrado na 
 figura abaixo.
 
-![](imagens/z690.png)
+![](../imagens/z690.png)
 
 **Figura 2:** diagrama lógico do chipset Intel z690. Repare como dispositivos rápidos (como memória RAM e dispositivos conectados à PCI express) comunicam-se diretamente 
 com o processador, enquando dispositivos lentos (USB, SATA, Ethernet) passam pelo 
 chipset.
 
-<img src="imagens/stallings_barramento_1.png" width="600px">
-<img src="imagens/stallings_barramento_2.png" width="600px">
+<img src="../imagens/stallings_barramento_1.png" width="600px">
+<img src="../imagens/stallings_barramento_2.png" width="600px">
 
 **Figura 3:** diagrama lógico de barramentos, adaptado do livro Stallings. Você consegue identificar que tipo de arranjo o chipset Z690 segue?
 

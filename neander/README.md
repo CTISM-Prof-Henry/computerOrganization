@@ -59,9 +59,52 @@ operando). Para indicar que um operando é indireto, deve-se precedê-lo pela le
 
 ## Interface gráfica
 
-Todos os valores representados são números **hexadecimais** (i.e. memória, visor, switches
-de entrada, valores dos registradores), à exceção do console de programação, onde os números
-são **decimais**.
+Na imagem abaixo, à esquerda, está a interface gráfica do Neander-X, como a 
+visualizamos quando iniciamos o programa. Na imagem abaixo, à direita, os diversos
+elementos gráficos do programa estão numerados. O que cada elemento gráfico faz
+está descrito logo abaixo.
+
+<img src="../imagens/neander_interface.png">
+<img src="../imagens/neander_interface_indexada.png">
+
+### Elementos do Neander-X
+
+1. Editor de texto: onde programamos o código-fonte. **É o único local do Neander-X
+   onde os números estão na base decimal. Todos os outros locais mostram números
+   na base hexadecimal.**
+2. Memória: uma tabela com 256 posições, cada posição sendo um endereço de memória.
+   No começo de cada linha, é mostrado o endereço da posição de memória mais à
+   esquerda da linha. Cada posição de memória armazena um valor binário de 8 bits
+   (valores entre 0 e 255).
+3. Uma caixa de texto onde podemos selecionar qual posição da memória queremos
+   acessar.
+4. O valor armazenado naquela posição de memória.
+5. Botões que levam para as posições de memória anterior (esquerda) e posterior 
+   (direita) à posição atual.
+6. Um visor que mostra qual a próxima instrução a ser executada.
+7. O valor do registrador PC (Program Counter).
+8. O valor do registrador ACC (acumulador).
+9. O valor do flip-flop Z (mostra se a última operação da ULA resultou em um valor
+   nulo, zero).
+10. O valor do flip-flop N (mostra se a última operação da ULA resultou em um valor
+   negativo).
+11. Botão para executar todas as instruções de uma vez só. **Certifique-se que
+    compilou o código primeiro!**
+12. Botão para executar instrução-por-instrução. Precisa ser pressionado novamente
+    a cada nova instrução que for executada.
+13. Botão para parar a execução de um programa.
+14. Botão para reiniciar a execução de um programa.
+15. Visor de saída. É o dispositivo `0` da instrução `OUT`.
+16. Conjunto de interruptores de entrada. É o dispositivo `0` da instrução `IN`.
+17. Visor que mostra o valor que foi entrado nos interruptores de entrada.
+18. Botão _Enter_; notifica que os valores inseridos nos interruptores estão 
+   prontos para leitura.
+19. Luz que mostra se os dados dos interruptores estão prontos para leitura. É
+    o dispositivo `1` da instrução `IN`.
+20. Botão para compilar o código-fonte.
+
+
+
 
 ## Passo-a-passo de execução de programas
 
