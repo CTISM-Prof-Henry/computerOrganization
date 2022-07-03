@@ -203,6 +203,5 @@ do código-fonte, com endereçamento imediato, some ambos e mostre na tela.
    valor negativo, em complemento de 2.
 5. Crie um programa que multiple dois números.
 6. Crie um programa que eleve um número ao quadrado.
-7. Crie um programa que faça a potência `x^y`
 
 Mais exercícios na página do [neander](https://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander).

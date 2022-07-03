@@ -88,10 +88,11 @@ Para permitir que você clique no link dos conteúdos e o link o leve diretament
 |   13 | Lab 207 - Prédio 5 | Neander: exemplo de execução de um pograma na organização do Neander. Resolução de exercícios. |
 |   14 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina. |
 |   15 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina (continuação). |
-|   16 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander. |
-|   17 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander (continuação) |
-|   18 |       Sala de Aula | Prova. |
-|   19 |       Sala de Aula | Exame. |
+|   16 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina (continuação). |
+|   17 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander. |
+|   18 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander (continuação) |
+|   19 |       Sala de Aula | Prova. |
+|   20 |       Sala de Aula | Exame. |
 
 
 ## Resumos
