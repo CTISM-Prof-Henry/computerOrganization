@@ -178,9 +178,69 @@ posições da memória. Você deve usar essas posições da memória nas instru�
 
 ## Organização
 
-A organização do Neander diz respeito aos aspectos **visíveis** de sua implementação, e pode ser visualizada na figura abaixo.
+A organização do Neander diz respeito aos aspectos **visíveis** de sua 
+implementação, e pode ser visualizada na figura abaixo.
 
 ![](../imagens/neander_organização.png)
+
+### Itens da Organização
+
+* **Unidade de Controle:** O "cérebro" do processador. Possui caminhos de dados 
+  (11 na figura acima) com diversos sinais de controle, para os outros 
+  dispositivos do processador.
+* **MEM:** Memória. Onde dados e instruções são armazenados
+* **RDM:** Registrador de Dados da Memória
+* **REM:** Registrador de Endereços da Memória
+* **RI:** Registrador de Instruções
+* **ULA:** Unidade Lógica e Aritmética. Como o nome diz, realiza operações lógicas
+  (AND, NOT, OR) e aritméticas (soma, subtração).
+* **ACC:** acumulador
+* **N, Z:** flip-flops para registrar a saída da última operação realizada pela
+  ULA (N=1: número negativo; N=0: número positivo; Z=0: número nulo; Z=1: número
+  não-nulo)
+* **PC:** Program Counter. Aponta para a posição de memória onde está a próxima
+  instrução a ser executada
+* **MUX:** sigla para multiplexador
+
+### Exemplo de execução de instrução
+
+#### LDA `ender`
+
+**Busca:**
+
+```assembly
+REM <- PC
+Read; PC <- PC + 1
+RI <- RDM
+```
+
+**Execução:**
+
+```assembly
+REM <- PC
+Read; PC <- PC + 1
+REM <- RDM
+Read
+AC <- RDM; Atualiza N e Z
+```
+
+#### JMP `ender`
+
+**Busca:**
+
+```assembly
+REM <- PC
+Read; PC <- PC + 1
+RI <- RDM
+```
+
+**Execução:**
+
+```assembly
+REM <- PC
+Read
+PC <- RDM
+```
 
 ## Vídeos no Youtube
 
