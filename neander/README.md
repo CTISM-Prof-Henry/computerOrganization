@@ -263,18 +263,19 @@ PC <- RDM
 
 ### Sinais de controle
 
-| Sinal de controle | Dispositivo controlado | Descrição                                   |
-| sel=0, sel=1      | multiplexador          | alterna entre os sinais do PC (0) e RDM (1) |
-| cargaPC | Program Counter (PC) | sobrescreve o valor do PC com o valor do sinal |
-| incrementaPC | Program Counter (PC) | incrementa o valor do PC em 1 (PC <- PC + 1) |
-| cargaACC          | acumulador (ACC)       | sobrescreve o valor de ACC com o valor do sinal |
+| Sinal de controle | Dispositivo controlado | Descrição                                                                      |
+|:------------------|:-----------------------|:-------------------------------------------------------------------------------|
+| sel=0, sel=1      | multiplexador          | alterna entre os sinais do PC (0) e RDM (1)                                    |
+| cargaPC | Program Counter (PC) | sobrescreve o valor do PC com o valor do sinal                                             |
+| incrementaPC | Program Counter (PC) | incrementa o valor do PC em 1 (PC <- PC + 1)                                          |
+| cargaACC          | acumulador (ACC)       | sobrescreve o valor de ACC com o valor do sinal                                |
 | selULA(Y), selULA(ADD), selULA(AND), selULA(OR), selULA(NOT) | Unidade Lógica e Aritmética (ULA) | define a operação da ULA |
-| cargaNZ | flip-flops N e Z | atualiza o valor dos flip-flops N e Z |
-| cargaRI | Registrador de Instruções (RI) | sobrescreve o valor de RI com o valor do sinal |
-| cargaRDM | Registrador de Dados da Memória (RDM) | sobrescreve o valor do RDM com o valor do sinal |
-| cargaREM | Registrador de Dados da Memória (REM) | sobrescreve o valor do REM com o valor do sinal |
-| read | Memória (MEM) | lê a memória na posição dada pelo REM, e escreve no RDM |
-| write | Memória (MEM) | escreve na memória o valor do RDM na posição dada pelo REM |
+| cargaNZ | flip-flops N e Z | atualiza o valor dos flip-flops N e Z                                                          |
+| cargaRI | Registrador de Instruções (RI) | sobrescreve o valor de RI com o valor do sinal                                   |
+| cargaRDM | Registrador de Dados da Memória (RDM) | sobrescreve o valor do RDM com o valor do sinal                          |
+| cargaREM | Registrador de Dados da Memória (REM) | sobrescreve o valor do REM com o valor do sinal                          |
+| read | Memória (MEM) | lê a memória na posição dada pelo REM, e escreve no RDM                                              |
+| write | Memória (MEM) | escreve na memória o valor do RDM na posição dada pelo REM                                          |
 
 ## Vídeos no Youtube
 
