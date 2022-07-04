@@ -62,13 +62,11 @@ operando). Para indicar que um operando é indireto, deve-se precedê-lo pela le
 
 ## Interface gráfica
 
-Na imagem abaixo, à esquerda, está a interface gráfica do Neander-X, como a 
-visualizamos quando iniciamos o programa. Na imagem abaixo, à direita, os diversos
-elementos gráficos do programa estão numerados. O que cada elemento gráfico faz
-está descrito logo abaixo.
+A interface gráfica do Neander-X, bem como o que cada um dos elementos gráficos
+faz, estão demonstrados e descritos nas imagens e listagem abaixo.
 
-<img src="../imagens/neander_interface.png">
-<img src="../imagens/neander_interface_indexada.png">
+![](../imagens/neander_interface.png)
+![](../imagens/neander_interface_indexada.png)
 
 ### Elementos do Neander-X
 
@@ -213,7 +211,8 @@ implementação, e pode ser visualizada na figura abaixo.
 
 ```assembly
 REM <- PC
-Read; PC <- PC + 1
+Read
+PC <- PC + 1
 RI <- RDM
 ```
 
@@ -221,10 +220,12 @@ RI <- RDM
 
 ```assembly
 REM <- PC
-Read; PC <- PC + 1
+Read
+PC <- PC + 1
 REM <- RDM
 Read
-AC <- RDM; Atualiza N e Z
+AC <- RDM
+Atualiza N e Z
 ```
 
 #### JMP `ender`
@@ -245,7 +246,7 @@ Read
 PC <- RDM
 ```
 
-### Sinais de controle
+### Transferências de memória e sinais de controle
 
 | Transferência                        | Sinais de Controle             |
 |:-------------------------------------|:-------------------------------|
@@ -259,6 +260,21 @@ PC <- RDM
 | ACC <- ACC `AND` RDM; atualiza N e Z | selULA(AND); cargaACC, cargaNZ |
 | ACC <- ACC `OR` RDM; atualiza N e Z  | selULA(OR); cargaACC, cargaNZ  |
 | ACC <- `NOT` ACC; atualiza N e Z     | selULA(NOT); cargaACC, cargaNZ |
+
+### Sinais de controle
+
+| Sinal de controle | Dispositivo controlado | Descrição                                   |
+| sel=0, sel=1      | multiplexador          | alterna entre os sinais do PC (0) e RDM (1) |
+| cargaPC | Program Counter (PC) | sobrescreve o valor do PC com o valor do sinal |
+| incrementaPC | Program Counter (PC) | incrementa o valor do PC em 1 (PC <- PC + 1) |
+| cargaACC          | acumulador (ACC)       | sobrescreve o valor de ACC com o valor do sinal |
+| selULA(Y), selULA(ADD), selULA(AND), selULA(OR), selULA(NOT) | Unidade Lógica e Aritmética (ULA) | define a operação da ULA |
+| cargaNZ | flip-flops N e Z | atualiza o valor dos flip-flops N e Z |
+| cargaRI | Registrador de Instruções (RI) | sobrescreve o valor de RI com o valor do sinal |
+| cargaRDM | Registrador de Dados da Memória (RDM) | sobrescreve o valor do RDM com o valor do sinal |
+| cargaREM | Registrador de Dados da Memória (REM) | sobrescreve o valor do REM com o valor do sinal |
+| read | Memória (MEM) | lê a memória na posição dada pelo REM, e escreve no RDM |
+| write | Memória (MEM) | escreve na memória o valor do RDM na posição dada pelo REM |
 
 ## Vídeos no Youtube
 
