@@ -245,6 +245,21 @@ Read
 PC <- RDM
 ```
 
+### Sinais de controle
+
+| Transferência                        | Sinais de Controle             |
+|:-------------------------------------|:-------------------------------|
+| REM <- PC                            | sel=0; cargaREM                |
+| PC <- PC + 1                         | incrementaPC                   |
+| RI <- RDM                            | cargaRI                        |
+| REM <- RDM                           | sel=1; cargaREM                |
+| RDM <- ACC                           | cargaRDM                       |
+| ACC <- RDM; atualiza N e Z           | selULA(Y); cargaACC, cargaNZ   |
+| ACC <- ACC + RDM; atualiza N e Z     | selULA(ADD); cargaACC, cargaNZ |
+| ACC <- ACC `AND` RDM; atualiza N e Z | selULA(AND); cargaACC, cargaNZ |
+| ACC <- ACC `OR` RDM; atualiza N e Z  | selULA(OR); cargaACC, cargaNZ  |
+| ACC <- `NOT` ACC; atualiza N e Z     | selULA(NOT); cargaACC, cargaNZ |
+
 ## Vídeos no Youtube
 
 * [Características, Especificações, Arquitetura e Conjunto de Instruções](
