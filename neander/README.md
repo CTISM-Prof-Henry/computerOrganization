@@ -22,8 +22,11 @@ memória são utilizadas pelas instruções, quando o programa é compilado.
 
 * 1 acumulador de 8 bits (ACC)
 * 1 program counter de 8 bits (PC)
-* 1 registrador de estado com 2 códigos de condição: N (negativo) e Z (zero)
-    * Valores mudam após operações da ULA (e.g. ADD)
+* 2 flip-flops: 
+    * N (negativo): registra se a última operação da ULA resultou em um número 
+      negativo (N=1) ou positivo (N=0)
+    * Z (zero): registra se a última operação da ULA resultou em um número 
+      nulo (Z=1) ou não-nulo (Z=0)
 
 ### Representação de valores negativos
 
