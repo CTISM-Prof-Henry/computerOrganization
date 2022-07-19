@@ -107,6 +107,7 @@ Para permitir que você clique no link dos conteúdos e o link o leve diretament
 * [Neander](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander)
 * [Neander-X](https://dcc.ufrj.br/~gabriel/neander.php)
     * [Download](https://sourceforge.net/projects/neander-x)
+* [godbolt](godbolt.org)
 
 ## Bibliografia
 
