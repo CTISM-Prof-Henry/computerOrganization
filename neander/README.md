@@ -72,7 +72,13 @@ faz, estão demonstrados e descritos nas imagens e listagem abaixo.
 
 1. Editor de texto: onde programamos o código-fonte. **É o único local do Neander-X
    onde os números estão na base decimal. Todos os outros locais mostram números
-   na base hexadecimal.**
+   na base hexadecimal.** Contudo, podemos expressar números hexadecimais escrevendo-os
+   e colocando uma letra H no fim do número:
+   
+   ```asm
+   LDA AH  ; acessa a posição 10 (base 10) da memória
+   ```
+   
 2. Memória: uma tabela com 256 posições, cada posição sendo um endereço de memória.
    No começo de cada linha, é mostrado o endereço da posição de memória mais à
    esquerda da linha. Cada posição de memória armazena um valor binário de 8 bits
