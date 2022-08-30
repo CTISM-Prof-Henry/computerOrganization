@@ -36,42 +36,93 @@ Veja a seção [Bibliografia](#Bibliografia)) para consultar os livros-base da d
 Consulte o **plano de ensino** (disponível no Portal do Aluno da UFSM) para informações específicas sobre a sua 
 disciplina.
 
+<details>
+    <summary><b>Eletrônica Industrial/Técnico Subsequente em Eletrônica</b></summary>
+
 1. **Introdução**
-    1. Organização geral (<a href="tanenbaum.pdf#page=20">pp. 1-6</a>)(<a href="stallings.pdf#page=22">Stallings pp. 1-6</a>)
-    2. Esquema típico de um microcomputador (<a href="tanenbaum.pdf#page=61">pp. 42-44</a>)
-    3. Operação do computador (<a href="tanenbaum.pdf#page=63">pp. 44-47</a>)
+   1. Organização geral (<a href="tanenbaum.pdf#page=20">pp. 1-6</a>)(<a href="stallings.pdf#page=22">Stallings pp. 1-6</a>)
+   2. Esquema típico de um microcomputador (<a href="tanenbaum.pdf#page=61">pp. 42-44</a>)
+   3. Operação do computador (<a href="tanenbaum.pdf#page=63">pp. 44-47</a>)
 
 2. **Sistemas de numeração e representação**
-    1. Números binários, octais, hexadecimais (<a href="tanenbaum.pdf#page=544">pp. 525-530</a>)
-    2. Representação de valores negativos (<a href="tanenbaum.pdf#page=550">pp. 531-532</a>)
-    3. Aritmética binária (<a href="tanenbaum.pdf#page=551">pp. 532-533</a>)
-    4. Ponto flutuante (<a href="tanenbaum.pdf#page=553">Tanenbaum pp. 534-541</a>)<!--(<a href="stallings.pdf#page=283">Stallings pp. 262-275</a>)-->
-    5. Códigos de caracteres: ASCII Unicode (<a href="tanenbaum.pdf#page=127">pp. 108-110</a>)
+   1. Números binários, octais, hexadecimais (<a href="tanenbaum.pdf#page=544">pp. 525-530</a>)
+   2. Representação de valores negativos (<a href="tanenbaum.pdf#page=550">pp. 531-532</a>)
+   3. Aritmética binária (<a href="tanenbaum.pdf#page=551">pp. 532-533</a>)
+   4. Ponto flutuante (<a href="tanenbaum.pdf#page=553">Tanenbaum pp. 534-541</a>)<!--(<a href="stallings.pdf#page=283">Stallings pp. 262-275</a>)-->
+   5. Códigos de caracteres: ASCII Unicode (<a href="tanenbaum.pdf#page=127">pp. 108-110</a>)
 
 3. **Sistema de memória**
-    1. Memória primária (<a href="tanenbaum.pdf#page=76">pp. 57-63</a>)
-        1. Memória cache (<a href="tanenbaum.pdf#page=82">pp. 63-66</a>)
-    2. Memória secundária (<a href="tanenbaum.pdf#page=86">pp. 67-85</a>)
-        1. Hierarquias de Memória (<a href="tanenbaum.pdf#page=86">pp. 67-68</a>)
-    3. Organização de memória (<a href="tanenbaum.pdf#page=157">pp. 138-140</a>) 
-    <!--4. Memória virtual (<a href="tanenbaum.pdf#page=364">pp. 345-365</a>)-->
+   1. Memória primária (<a href="tanenbaum.pdf#page=76">pp. 57-63</a>)
+       1. Memória cache (<a href="tanenbaum.pdf#page=82">pp. 63-66</a>)
+   2. Memória secundária (<a href="tanenbaum.pdf#page=86">pp. 67-85</a>)
+   3. Hierarquias de Memória (<a href="tanenbaum.pdf#page=86">pp. 67-68</a>)
+   4. Organização de memória (<a href="tanenbaum.pdf#page=157">pp. 138-140</a>)
+      <!--4. Memória virtual (<a href="tanenbaum.pdf#page=364">pp. 345-365</a>)-->
 
 4. **Sistemas de interconexão**
-    1. Estruturas de interconexão <!--(<a href="tanenbaum.pdf#page=506">pp. 487-489</a>)-->(<a href="stallings.pdf#page=83">Stallings pp. 62-63</a>)
-    2. Barramentos (<a href="tanenbaum.pdf#page=104">pp. 85-88</a>) 
+   1. Estruturas de interconexão <!--(<a href="tanenbaum.pdf#page=506">pp. 487-489</a>)-->(<a href="stallings.pdf#page=83">Stallings pp. 62-63</a>)
+   2. Barramentos (<a href="tanenbaum.pdf#page=104">pp. 85-88</a>)
 
 5. **Sistema de entrada e saída**
-    1. Dispositivos externos (periféricos) (<a href="tanenbaum.pdf#page=107">pp. 88-99</a>) 
+   1. Dispositivos externos (periféricos) (<a href="tanenbaum.pdf#page=107">pp. 88-99</a>)
 
 6. **Unidade central de processamento**
-    1. Interrupção, suspensão, parada e partida (<a href="stallings.pdf#page=477">Stallings pp. 456-461</a>)
-    2. Controle do processador (<a href="stallings.pdf#page=482">Stallings pp. 461-465</a>) 
-    <!--2. Registradores (<a href="tanenbaum.pdf#page=152">pp. 133-137</a>)-->
-    3. Unidade Lógica e Aritmética <!--(<a href="tanenbaum.pdf#page=149">Tanenbaum pp. 130-132</a>)-->(<a href="stallings.pdf#page=265">Stallings pp. 244-262</a>)
-    4. Unidade de controle (<a href="stallings.pdf#page=477">Stallings pp. 456-466</a>)
+   1. Interrupção, suspensão, parada e partida (<a href="stallings.pdf#page=477">Stallings pp. 456-461</a>)
+   2. Controle do processador (<a href="stallings.pdf#page=482">Stallings pp. 461-465</a>)
+      <!--2. Registradores (<a href="tanenbaum.pdf#page=152">pp. 133-137</a>)-->
+   3. Unidade Lógica e Aritmética <!--(<a href="tanenbaum.pdf#page=149">Tanenbaum pp. 130-132</a>)-->(<a href="stallings.pdf#page=265">Stallings pp. 244-262</a>)
+   4. Unidade de controle (<a href="stallings.pdf#page=477">Stallings pp. 456-466</a>)
 
 7. **Controle microprogramado** (<a href="stallings.pdf#page=495">Stallings pp. 474-504</a>)
 
+</details>
+
+<details>
+<summary><b>Redes de Computadores</b></summary>
+
+1. A visão do Software
+    1. - O compilador.
+    2. - O montador.
+        1. - Funções básicas de um montador.
+        2. - Montadores de duas passagem.
+        3. - Montadores de uma passagem.
+    3. - O ligador.
+    4. - O carregador.
+    5. - O processo de boot.
+
+2. Linguagem de Máquina
+    1. Codificação das Instruções.
+        1. Estruturas de instruções.
+        2. Conjunto de Instruções.
+        3. Modos de endereçamento.
+        4. Operações condicionais.
+        5. Pilhas e subrotinas.
+    2. Linguagem de descrição de Arquitetura.
+    3. Anatomia de um arquivo executável.
+
+3. Linguagem de Montagem
+   1. Operações e operandos.
+   2. Instruções Lógicas e Aritméticas.
+   3. Instruções de desvio.
+
+4. Via de Dados da execução de uma Instrução
+   1. Construção de uma via de dados.
+   2. Abordagem monociclo.
+   3. Abordagem multi-ciclo.
+   4. Pipeline.
+
+5. Desempenho do Computador
+    1. Métricas de desempenho.
+    2. Benchmarking.
+
+6. Arquiteturas Avançadas
+    1. Processadores CISC e RISC.
+    2. Máquinas escalares.
+    3. Máquinas superescalares.
+    4. Máquinas VLIW.
+    5. Tendências.
+
+</details>
 
 ## Cronograma 
 
