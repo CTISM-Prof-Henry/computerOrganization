@@ -1,36 +1,40 @@
 # Organização de Computadores
 
-Este repositório visa organizar os conteúdos da disciplina de Organização de Computadores, lecionada em 2022 e ministrada pelo professor Henry Cagnini, 
-para os cursos de Graduação em Automação Industrial, e Técnico Subsequente em Eletrônica, do Colégio Técnico Industrial de Santa Maria (CTISM).
+Este repositório visa organizar os conteúdos da disciplina de Organização de Computadores, lecionada em 2022 e 
+ministrada pelo professor Henry Cagnini, para os cursos de Graduação em Eletrônica Industrial (Bacharelado), Técnico 
+Subsequente em Eletrônica, e Redes de Computadores, do Colégio Técnico Industrial de Santa Maria (CTISM).
 
 ## Sumário
 
+* [Diferença entre ementa, programa da disciplina e plano de ensino](#diferença-entre-ementa-programa-da-disciplina-e-plano-de-ensino)
 * [Conteúdos](#conteúdos)
-    * [Instruções](#instruções)
 * [Cronograma](#cronograma)
 * [Resumos](#resumos)
 * [Recursos adicionais](#recursos-adicionais)
+* [Instruções (para o professor)](instruções_professor.md)
 * [Bibliografia](#bibliografia)
+
+## Diferença entre ementa, programa da disciplina e plano de ensino
+
+* **Ementa:** descrição _curta_ da disciplina. É um resumo do que será visto, e quais competências o aluno deverá 
+  desenvolver no seu decorrer. Elaborado e atualizado por um comitê de professores a cada vez que o curso tem sua 
+  estrutura reorganizada. 
+* **Programa da disciplina:** descrição _detalhada e extensiva_ da disciplina. Contém todos os conteúdos que poderão ser
+  vistos no decorrer da disciplina. Elaborado e atualizado por um comitê de professores a cada vez que o curso tem sua
+  estrutura reorganizada.
+* **Plano de Ensino:** elaborado a partir do programa da disciplina, é a interpretação do professor da maneira como
+  a disciplina deve ser lecionada sob sua supervisão. Contém diversos itens, como o próprio programa da disciplina,
+  o cronograma das aulas, a maneira como as avaliações serão conduzidas, etc. Elaborado pelo professor da disciplina.
 
 ## Conteúdos
 
-O sumário está organizado de acordo com os conteúdos **do programa da disciplina** 
-(não necessariamente do plano de ensino). Em parênteses, está a página em que o conteúdo pode ser encontrado nos livros-base. Veja a seção [Bibliografia](#Bibliografia)) para consultar os livros-base desta disciplina.
+**IMPORTANTE:** Os conteúdos descritos aqui fazem parte do **programa da disciplina**, mas não necessariamente do 
+**plano de ensino**. Isso porque este repositório é utilizado por três disciplinas diferentes.
 
-
-### Instruções
-
-**Nota: esse passo-a-passo é opcional; a página do livro que tem o conteúdo é dada no próprio texto do link**.
-
-Para permitir que você clique no link dos conteúdos e o link o leve diretamente para a página do livro, você precisa seguir o seguinte passo-a-passo:
-
-1. Baixar uma extensão que leia arquivos Markdown (.md) e instalar no seu navegador:
-   * [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/)
-   * [Chrome](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
-2. Baixar este repositório. Se você está vendo-o pelo link no Github [https://github.com/CTISM-Prof-Henry/computerOrganization](), você precisa clicar no botão verde <img src="imagens/code_button.png"> e depois em _Download ZIP_ para baixar o repositório na sua máquina.
-3. Descompacte o arquivo .zip em algum lugar
-4. Abra a pasta do repositório no seu computador, clique com o botão direito em cima do arquivo _README.md_, e então em _Abrir com_, e finalmente selecione o navegador no qual você instalou a extensão no passo 1. 
-5. Ao clicar nos links na seção [Conteúdos](#conteúdos), estes o levarão agora diretamente à página do livro.
+Em parênteses, está o nome do livro-base e a página em que o conteúdo pode ser encontrado. 
+Veja a seção [Bibliografia](#Bibliografia)) para consultar os livros-base da disciplina.
+Consulte o **plano de ensino** (disponível no Portal do Aluno da UFSM) para informações específicas sobre a sua 
+disciplina.
 
 1. **Introdução**
     1. Organização geral (<a href="tanenbaum.pdf#page=20">pp. 1-6</a>)(<a href="stallings.pdf#page=22">Stallings pp. 1-6</a>)
@@ -71,28 +75,11 @@ Para permitir que você clique no link dos conteúdos e o link o leve diretament
 
 ## Cronograma 
 
+A ser definido no decorrer da disciplina.
+
 | Aula |               Sala | Conteúdo |
 |-----:|-------------------:|:---------|
-|    1 |       Sala de Aula | Introdução à disciplina. Placa-mãe e seus componentes. |
-|    2 |       Sala de Aula | Modelo de Von Neumann. Organização geral. |
-|    3 |       Sala de Aula | Números binários, octais, e hexadecimais. |
-|    4 |       Sala de Aula | Números binários, octais, e hexadecimais (continuação). Sistemas de memória: primária, memória cache, secundária. Hierarquia de memória. |
-|    5 |       Sala de Aula | Pipelining e execução de instruções. Diferenças entre RISC e SISC. |
-|    6 |       Sala de Aula | Feriado. |
-|    7 |       Sala de Aula | Prova. |
-|    8 |       Sala de Aula | Correção da prova. Apresentação seminários. |
-|    9 |       Sala de Aula | Apresentação seminários (continuação) |
-|   10 |       Sala de Aula | Estruturas de interconexão. Barramentos. |
-|   11 | Lab 207 - Prédio 5 | Neander: introdução. Características de arquitetura. Conjunto de instruções. |
-|   12 | Lab 207 - Prédio 5 | Neander: programação em Assembly. Resolução de exercícios. |
-|   13 | Lab 207 - Prédio 5 | Neander: exemplo de execução de um pograma na organização do Neander. Resolução de exercícios. |
-|   14 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina. |
-|   15 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina (continuação). |
-|   16 | Lab 207 - Prédio 5 | Neander: aula para elaborar o trabalho 2 da disciplina (continuação). |
-|   17 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander. |
-|   18 | Lab 207 - Prédio 5 | Apresentação trabalhos Neander (continuação) |
-|   19 |       Sala de Aula | Prova. |
-|   20 |       Sala de Aula | Exame. |
+|      |                    |          |
 
 
 ## Resumos
