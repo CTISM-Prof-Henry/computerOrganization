@@ -81,26 +81,26 @@ disciplina.
 <summary><b>Redes de Computadores</b></summary>
 
 1. A visão do Software
-    1. - O compilador.
-    2. - O montador.
-        1. - Funções básicas de um montador.
-        2. - Montadores de duas passagem.
-        3. - Montadores de uma passagem.
-    3. - O ligador.
-    4. - O carregador.
-    5. - O processo de boot.
+    1. O compilador.
+    2. O montador.
+        1. Funções básicas de um montador.
+        2. Montadores de duas passagens.
+        3. Montadores de uma passagem.
+    3. O ligador.
+    4. O carregador.
+    5. O processo de boot.
 
-2. Linguagem de Máquina
+2. Linguagem de Máquina (Stallings pp. 287)
     1. Codificação das Instruções.
         1. Estruturas de instruções.
-        2. Conjunto de Instruções.
-        3. Modos de endereçamento.
+        2. Conjunto de Instruções. 
+        3. Modos de endereçamento. (Stallings pp. 329)
         4. Operações condicionais.
         5. Pilhas e subrotinas.
     2. Linguagem de descrição de Arquitetura.
     3. Anatomia de um arquivo executável.
 
-3. Linguagem de Montagem
+3. Linguagem de Montagem (Stallings pp. 350)
    1. Operações e operandos.
    2. Instruções Lógicas e Aritméticas.
    3. Instruções de desvio.
@@ -109,11 +109,11 @@ disciplina.
    1. Construção de uma via de dados.
    2. Abordagem monociclo.
    3. Abordagem multi-ciclo.
-   4. Pipeline.
+   4. Pipeline. (Stallings pp. 364)
 
 5. Desempenho do Computador
-    1. Métricas de desempenho.
-    2. Benchmarking.
+    1. Métricas de desempenho. (<a href="stallings.pdf#page=54">Stallings pp. 38-41</a>)
+    2. Benchmarking. (<a href="stallings.pdf#page=57">Stallings pp. 41-44</a>)
 
 6. Arquiteturas Avançadas
     1. Processadores CISC e RISC.
