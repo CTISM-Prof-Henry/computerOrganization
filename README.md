@@ -80,6 +80,8 @@ disciplina.
 <details>
 <summary><b>Redes de Computadores</b></summary>
 
+https://www.inf.pucrs.br/~gustavo/disciplinas/pli/material/paradigmas-aula08.pdf
+
 1. A visão do Software
     1. O compilador.
     2. O montador.
@@ -94,16 +96,16 @@ disciplina.
     1. Codificação das Instruções.
         1. Estruturas de instruções.
         2. Conjunto de Instruções. 
-        3. Modos de endereçamento. (Stallings pp. 329)
+        3. Modos de endereçamento. (<a href="stallings.pdf#page=345">Stallings pp. 329-335</a>)
         4. Operações condicionais.
         5. Pilhas e subrotinas.
     2. Linguagem de descrição de Arquitetura.
     3. Anatomia de um arquivo executável.
 
-3. Linguagem de Montagem (Stallings pp. 350)
-   1. Operações e operandos.
-   2. Instruções Lógicas e Aritméticas.
-   3. Instruções de desvio.
+3. Linguagem de Montagem 
+   1. Operações e operandos. (<a href="stallings.pdf#page=355">Stallings pp. 339-346</a>)
+   2. Instruções Lógicas e Aritméticas. ([Neander/Instruções](neander/README.md#instruções))
+   3. Instruções de desvio. ([Neander/Instruções](neander/README.md#instruções))
 
 4. Via de Dados da execução de uma Instrução
    1. Construção de uma via de dados.

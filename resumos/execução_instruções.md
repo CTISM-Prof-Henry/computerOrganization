@@ -6,6 +6,22 @@ Programa em Java que simula a busca, interpretação e execução de instruçõe
 realizada tipicamente por um processador. Adaptado da <a href="tanenbaum.pdf#page=64">Figura 2.3 (página 45) do livro do
 Tanenbaum.</a>
 
+```mermaid
+flowchart TD
+    inicia_pc["inicia PC"]
+    busca["busca instrução\nna memória"]
+    incrementa["incrementa PC"]
+    decodifica["decodifica\ninstrução"]
+    localiza["localiza operandos"]
+    executa["executa instrução"]
+    checa_operandos{"instrução\npossui\noperandos?"}
+    halt{"instrução\né HALT?"}
+    stop["para execução\ndo programa"]
+    
+    inicia_pc --> busca --> incrementa --> decodifica --> checa_operandos -- "sim" --> localiza --> executa
+    checa_operandos -- "não" --> executa --> halt -- "não" --> busca
+    halt -- "sim" --> stop
+```
 
 ```java
 public class Interp {
