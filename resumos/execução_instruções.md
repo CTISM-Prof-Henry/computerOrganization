@@ -2,9 +2,8 @@
 
 ## Execução típica de instruções pelo processador
 
-Programa em Java que simula a busca, interpretação e execução de instruções
-realizada tipicamente por um processador. Adaptado da <a href="tanenbaum.pdf#page=64">Figura 2.3 (página 45) do livro do
-Tanenbaum.</a>
+O processo de busca e execução de instruções de um processador segue o seguinte fluxograma (adaptado da <a href="tanenbaum.pdf#page=64">Figura 2.3 (página 45) do livro do
+Tanenbaum</a>):
 
 ```mermaid
 flowchart TD
@@ -21,40 +20,6 @@ flowchart TD
     inicia_pc --> busca --> incrementa --> decodifica --> checa_operandos -- "sim" --> localiza --> executa
     checa_operandos -- "não" --> executa --> halt -- "não" --> busca
     halt -- "sim" --> stop
-```
-
-```java
-public class Interp {
-    static int PC; // contador de programa contém endereço da próxima instr
-    static int AC; // o acumulador, um registrador para efetuar aritmética
-    static int instr; // um registrador para conter a instrução corrente
-    static int instr_type; // o tipo da instrução (opcode)
-    static int data_loc; // o endereço dos dados, ou –1 se nenhum
-    static int data; // mantém o operando corrente
-    static boolean run_bit = true; // um bit que pode ser desligado para parar a máquina
-    public static void interpret(int memory[ ], int starting_ address) {
-        // Esse procedimento interpreta programas para uma máquina simples com instruções que têm
-        // um operando na memória. A máquina tem um registrador AC (acumulador), usado para
-        // aritmética. A instrução ADD soma um inteiro na memória do AC, por exemplo.
-        // O interpretador continua funcionando até o bit de funcionamento ser desligado pela instrução HALT.
-        // O estado de um processo que roda nessa máquina consiste em memória, o
-        // contador de programa, bit de funcionamento e AC. Os parâmetros de entrada consistem
-        // na imagem da memória e no endereço inicial.
-        PC = starting_address;
-        while (run_bit) {
-            instr = memory[PC]; // busca a próxima instrução e armazena em instr
-            PC = PC + 1; // incrementa contador de programa
-            instr_type = get_instr_type(instr); // determina tipo da instrução
-            data_loc = find_data(instr, instr_type); // localiza dados (–1 se nenhum)
-            if (data_loc >= 0) // se data_loc é –1, não há nenhum operando
-                data = memory[data_loc]; // busca os dados
-                execute(instr_type, data); // executa instrução
-            }
-        }
-        private static int get_instr_type(int addr) { ... }
-        private static int find_data(int instr, int type) { ... }
-        private static void execute(int type, int data) { ... }
-    }
 ```
 
 ## Escolhas de design
@@ -128,4 +93,4 @@ geral competitivo e retrocompatível.
   (decodificação, busca, execução) é executada por uma parte especializada do hardware, 
   efetivamente dividindo a carga de trabalho. A figura 2.4, extraída do livro do Tanenbaum, exemplifica este conceito.
 
-  ![pipelining](imagens/pipelining.png)
+  ![pipelining](../imagens/pipelining.png)

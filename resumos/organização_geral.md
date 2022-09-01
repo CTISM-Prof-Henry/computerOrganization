@@ -17,7 +17,7 @@ Processo de programação demanda construir linguagens de programação cada
 vez mais próximas da linguagem natural, abstraindo conceitos difíceis para
 linguagens inferiores.
 
-![niveis](imagens/niveis.png)
+![niveis](../imagens/niveis.png)
 
 ## Desenvolvidos por programadores de sistemas (geralmente interpretados)
 
