@@ -80,8 +80,6 @@ disciplina.
 <details>
 <summary><b>Redes de Computadores</b></summary>
 
-https://www.inf.pucrs.br/~gustavo/disciplinas/pli/material/paradigmas-aula08.pdf
-
 1. A visão do Software
     1. O compilador.
     2. O montador.
