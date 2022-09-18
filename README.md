@@ -138,7 +138,7 @@ A ser definido no decorrer da disciplina.
 ## Resumos
 
 * [Organização geral](resumos/organização_geral.md)
-* [Tradução de programas(link externo)](https://www.inf.pucrs.br/~gustavo/disciplinas/pli/material/paradigmas-aula08.pdf)
+* [Tradução de programas (link externo)](https://www.inf.pucrs.br/~gustavo/disciplinas/pli/material/paradigmas-aula08.pdf)
 * [Execução Instruções](resumos/execução_instruções.md)
 * [Barramentos](resumos/barramentos.md)
 * [Neander](neander/README.md)
