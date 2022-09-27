@@ -34,7 +34,7 @@ Subsequente em Eletrônica, e Redes de Computadores, do Colégio Técnico Indust
     * Copiou código-fonte da internet e o professor descobriu? 
     * Nota zero
 * 4 avaliações
-    * 1 prova, 1 trabalho
+    * 1 prova, 3 trabalho
     * mesmo peso para todas as atividades (25% da nota do semestre)
 * O aluno deve aprender a aprender
     * Hábito de estudar os tópicos com antecedência
