@@ -26,6 +26,25 @@ Subsequente em Eletrônica, e Redes de Computadores, do Colégio Técnico Indust
   a disciplina deve ser lecionada sob sua supervisão. Contém diversos itens, como o próprio programa da disciplina,
   o cronograma das aulas, a maneira como as avaliações serão conduzidas, etc. Elaborado pelo professor da disciplina.
 
+## Características da disciplina
+
+* Disciplina é difícil
+* Entrega pontual dos trabalhos
+* **Plágios não serão tolerados**
+    * Copiou código-fonte da internet e o professor descobriu? 
+    * Nota zero
+* 4 avaliações
+    * 1 prova, 1 trabalho
+    * mesmo peso para todas as atividades (25% da nota do semestre)
+* O aluno deve aprender a aprender
+    * Hábito de estudar os tópicos com antecedência
+* Discilina reprova por presença
+    * Mínimo de 75% de presença
+    * O professor só lança as presenças no fim da disciplina
+    * Controle de faltas pessoal
+    * O professor pode falar o número de faltas sob consulta
+* Tira-dúvidas dos conteúdos e trabalhos: durante a aula ou por e-mail (henry.cagnini@gmail.com)
+
 ## Conteúdos
 
 **IMPORTANTE:** Os conteúdos descritos aqui fazem parte do **programa da disciplina**, mas não necessariamente do 
