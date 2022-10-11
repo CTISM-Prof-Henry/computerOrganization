@@ -45,8 +45,7 @@ outro são instruções de manipulação matricial. Percebeu-se com o tempo que,
 operações serem executadas geralmente em sequência, simplesmente criar uma instrução 
 mais complexa que executasse as duas em sequência resultaria em aumento de desempenho. 
 
-A **arquitetura** de um processador denomina o conjunto de instruções que este processador está executando. As arquiteturas mais populares atualmente são **x86**,
-**x64**, **x86-64**, **ARM**, etc. O conjunto de instruções da arquitetura x86 está disponível
+A **arquitetura** de um processador denomina o conjunto de instruções que este processador está executando. As arquiteturas mais populares atualmente são **x86**, **x86-64**, **ARM**, etc. O conjunto de instruções da arquitetura x86 está disponível
 na [Wikipédia](https://en.wikipedia.org/wiki/X86_instruction_listings).
 
 
