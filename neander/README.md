@@ -155,7 +155,7 @@ memória --> executa
 |      1000 0000 |                 80 | JMP `ender`   | pula para a instrução na posição `ender` de memória |
 |      1001 0000 |                 90 | JN `ender`    | pula para a instrução na posição `ender` de memória **APENAS SE** N = 1 |
 |      1010 0000 |                 A0 | JZ `ender`    | pula para a instrução na posição `ender` de memória **APENAS SE** Z = 1 |
-|      1011 0000 |                 B0 | JNZ `ender`   | pula para a instrução na posição `ender` de memória **APENAS SE** N = 0 |
+|      1011 0000 |                 B0 | JNZ `ender`   | pula para a instrução na posição `ender` de memória **APENAS SE** Z = 0 |
 |      1100 0000 |                 C0 | IN 0    | carrega valor da entrada (teclado) no ACC |
 |      1101 0000 |                 D0 | OUT 0   | mostra no visor valor do ACC |
 |      1110 0000 |                 E0 | LDI `imed`    | carrega o valor imediato `imed` no acumulador       |
