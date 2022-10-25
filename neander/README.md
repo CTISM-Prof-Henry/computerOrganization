@@ -304,5 +304,37 @@ do código-fonte, com endereçamento imediato, some ambos e mostre na tela.
    valor negativo, em complemento de 2.
 5. Crie um programa que multiple dois números.
 6. Crie um programa que eleve um número ao quadrado.
+7. Crie um programa que conta de 0 à 10.
+8. Crie um programa que conta de 0 à 10, pulando de 2 em 2.
+9. Crie um programa que divide um número pelo outro.
+10. Crie um programa que recebe três números, `a`, `b` e `c`. O programa deve fazer o seguinte cálculo: `a + b - c`, e
+    mostrar na tela.
 
-Mais exercícios na página do [neander](https://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander).
+### Sem resolução
+
+Os exercícios abaixo podem ser feitos no Neander, mas não possuem resolução neste repositório:
+
+1. Faça um programa que calcula a raiz quadrada de um número
+    * Assuma que apenas números que possuem raiz quadrada inteira serão passados para o programa (e.g. 4, 9, 16, etc)
+    * Você não precisa implementar o algoritmo para números que não possuem raiz quadrada inteira, e.g. 3, 5, 11, etc
+2. Faça um programa que, dado quatro números, A, B, C e x, calcula o y de um polinômio de segundo grau: 
+   `y = a*x^2 + b*x + c`
+3. Faça um programa que calcula o logaritmo binário de um número x, passado para o programa: `log_2(x)`
+4. Faça um programa que, dado um número N, calcula o seu fatorial: `N!`
+5. Faça um programa que, dados dois números, calcula `a^b`.
+6. Faça um programa que calcula o maior divisor comum entre dois números, utilizando o Algoritmo de Euclides.
+7. Faça um programa que, dado um número N, diga qual valor da sequência de Fibonacci aquele número é. Confira a tabela 
+   abaixo para os primeiros números da sequência:
+
+| Índice |  Número de Fibonacci |
+|-------:|---------------------:|
+|      1 |                   1  |
+|      2 |                   1  |
+|      3 |                   2  |
+|      4 |                   3  |
+|      5 |                   5  |
+|      6 |                   8  |
+|      7 |                  13  |
+|      8 |                  21  |
+|      9 |                  34  |
+
