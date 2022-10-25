@@ -309,6 +309,8 @@ do código-fonte, com endereçamento imediato, some ambos e mostre na tela.
 9. Crie um programa que divide um número pelo outro.
 10. Crie um programa que recebe três números, `a`, `b` e `c`. O programa deve fazer o seguinte cálculo: `a + b - c`, e
     mostrar na tela.
+11. Crie um programa que recebe dois números. O programa deve exibir `1` no visor se os dois números forem iguais, ou 
+    `0` em caso contrário.
 
 ### Sem resolução
 
