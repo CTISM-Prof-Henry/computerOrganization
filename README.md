@@ -6,9 +6,7 @@ Subsequente em Eletrônica, e Redes de Computadores, do Colégio Técnico Indust
 
 ## Sumário
 
-* [Diferença entre ementa, programa da disciplina e plano de ensino](#diferença-entre-ementa-programa-da-disciplina-e-plano-de-ensino)
 * [Conteúdos](#conteúdos)
-* [Cronograma](#cronograma)
 * [Resumos](#resumos)
 * [Recursos adicionais](#recursos-adicionais)
 * [Instruções (para o professor)](instruções_professor.md)
