@@ -35,9 +35,6 @@ Subsequente em Eletrônica, e Redes de Computadores, do Colégio Técnico Indust
 
 ## Conteúdos
 
-**IMPORTANTE:** Os conteúdos descritos aqui fazem parte do **programa da disciplina**, mas não necessariamente do 
-**plano de ensino**. Isso porque este repositório é utilizado por três disciplinas diferentes.
-
 Em parênteses, está o nome do livro-base e a página em que o conteúdo pode ser encontrado. 
 Veja a seção [Bibliografia](#Bibliografia)) para consultar os livros-base da disciplina.
 Consulte o **plano de ensino** (disponível no Portal do Aluno da UFSM) para informações específicas sobre a sua 
@@ -130,15 +127,6 @@ disciplina.
     5. Tendências.
 
 </details>
-
-## Cronograma 
-
-A ser definido no decorrer da disciplina.
-
-| Aula |               Sala | Conteúdo |
-|-----:|-------------------:|:---------|
-|      |                    |          |
-
 
 ## Resumos
 
