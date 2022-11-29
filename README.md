@@ -14,18 +14,6 @@ Subsequente em Eletrônica, e Redes de Computadores, do Colégio Técnico Indust
 * [Instruções (para o professor)](instruções_professor.md)
 * [Bibliografia](#bibliografia)
 
-## Diferença entre ementa, programa da disciplina e plano de ensino
-
-* **Ementa:** descrição _curta_ da disciplina. É um resumo do que será visto, e quais competências o aluno deverá 
-  desenvolver no seu decorrer. Elaborado e atualizado por um comitê de professores a cada vez que o curso tem sua 
-  estrutura reorganizada. 
-* **Programa da disciplina:** descrição _detalhada e extensiva_ da disciplina. Contém todos os conteúdos que poderão ser
-  vistos no decorrer da disciplina. Elaborado e atualizado por um comitê de professores a cada vez que o curso tem sua
-  estrutura reorganizada.
-* **Plano de Ensino:** elaborado a partir do programa da disciplina, é a interpretação do professor da maneira como
-  a disciplina deve ser lecionada sob sua supervisão. Contém diversos itens, como o próprio programa da disciplina,
-  o cronograma das aulas, a maneira como as avaliações serão conduzidas, etc. Elaborado pelo professor da disciplina.
-
 ## Características da disciplina
 
 * Disciplina é difícil
